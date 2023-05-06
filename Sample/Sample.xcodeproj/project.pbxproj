@@ -13,6 +13,7 @@
 		C34609572A05F25600DFE408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34609552A05F25600DFE408 /* Main.storyboard */; };
 		C34609592A05F25700DFE408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C34609582A05F25700DFE408 /* Assets.xcassets */; };
 		C346095C2A05F25700DFE408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C346095A2A05F25700DFE408 /* LaunchScreen.storyboard */; };
+		C34609682A05FEAA00DFE408 /* UIComponents in Frameworks */ = {isa = PBXBuildFile; productRef = C34609672A05FEAA00DFE408 /* UIComponents */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34609682A05FEAA00DFE408 /* UIComponents in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +46,7 @@
 				C34609632A05F26B00DFE408 /* Packages */,
 				C346094E2A05F25600DFE408 /* Sample */,
 				C346094D2A05F25600DFE408 /* Products */,
+				C34609662A05FEAA00DFE408 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +80,13 @@
 			name = Packages;
 			sourceTree = "<group>";
 		};
+		C34609662A05FEAA00DFE408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -93,6 +103,9 @@
 			dependencies = (
 			);
 			name = Sample;
+			packageProductDependencies = (
+				C34609672A05FEAA00DFE408 /* UIComponents */,
+			);
 			productName = Sample;
 			productReference = C346094C2A05F25600DFE408 /* Sample.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +134,8 @@
 				Base,
 			);
 			mainGroup = C34609432A05F25600DFE408;
+			packageReferences = (
+			);
 			productRefGroup = C346094D2A05F25600DFE408 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -366,6 +381,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C34609672A05FEAA00DFE408 /* UIComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComponents;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C34609442A05F25600DFE408 /* Project object */;
 }
